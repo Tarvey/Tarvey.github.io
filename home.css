@@ -1,0 +1,19 @@
+.home-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.home-container1 {
+  display: flex;
+  position: relative;
+}
+.home-github1 {
+  text-decoration: underline;
+}
+.home-github2 {
+  text-decoration: underline;
+}
