@@ -7,8 +7,8 @@ nav {
     text-align: left;
     vertical-align: top, text-top;
 }
-h1 h2 h3 h4 h5 h6 {
-    font-family: 'Comic Sans MS';
+ptext {
+    font-family: 'Comic Sans', 'Comic Sans MS';
 }
 imag {
     position: center, absolute, fixed;
