@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    
+}
+nav {
+    position: absolute;
+    text-align: left;
+    vertical-align: top, text-top;
+}
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Comic Sans MS';
+}
