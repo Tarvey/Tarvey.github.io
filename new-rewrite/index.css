@@ -9,6 +9,7 @@ nav {
 }
 ptext {
     font-family: 'Comic Sans', 'Comic Sans MS';
+    color: blueviolet;
 }
 imag {
     position: center, absolute, fixed;
