@@ -7,10 +7,27 @@ nav {
     text-align: left;
     vertical-align: top, text-top;
 }
-ptext {
-    font-family: 'Comic Sans', 'Comic Sans MS';
+h1 {font-family: 'Comic Sans', 'Comic Sans MS';}
+h1#title {
     color: blueviolet;
+    left: 200px;
+    position: absolute;
 }
-imag {
-    position: center, absolute, fixed;
+h1#info {
+    position: absolute;
+    color: grey;
+    top: 175px;
+    right: 100px;
+}
+img#avtar {
+    position: absolute;
+    size: 10px;
+    top: 350px;
+    left: 250px;
+    
+}
+
+img#bg {
+    position: fixed;
+    size: 150%;
 }
