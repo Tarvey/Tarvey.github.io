@@ -29,7 +29,7 @@ document.getElementById('falling').innerHTML += `
               <div class="inner">🍂</div></div>
           </div>
 `
-document.body.innerHTML += `<div id="Blursor"></div>
+document.body.outerHTML += `<div id="Blursor"></div>
 <style>
     #Blursor {
         height: 10rem; width: 10rem; border-radius: 1000px; background: #15b600; filter: blur(25px);
