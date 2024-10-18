@@ -16,9 +16,23 @@
         <div id="Blursor"></div>
         <style>
             #Blursor {
-                height: 3rem; width: 3rem; border-radius: 1000px;
+                height: 10rem; width: 10rem; border-radius: 1000px; background: #15b600; 
             }
         </style>
+        <script>
+            const move = document.getElementById("Blursor");
+
+document.body.onpointermove = event => {
+    const { clientX, clientY } = event;
+
+    move.animate({
+        left: `${clientX}px`,
+        top: `${clientY}px`
+    
+    }, {duration: 1000, fill: "forwards"})
+
+}
+        </script>
             
         <script>
             window.mobileCheck = function() {
