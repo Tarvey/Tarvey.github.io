@@ -14,7 +14,7 @@ body {align-self: left; text-align: left; align-content: left; align-tracks: lef
 .top, .topbar {width:fit-content; padding-left: 0.5rem; padding-right: 0.5rem;}
 .topmaincontent {padding: 0.5rem}
 .navigations {align-items:start; text-align: left; align-content: start;}
-:root {
+html {
     --colour-1: rgba(89, 42, 104, 0.25);
     --colour-2: rgba(255, 136, 3, 0.3);
 }
