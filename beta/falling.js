@@ -29,3 +29,19 @@ document.getElementById('falling').innerHTML += `
               <div class="inner">🍂</div></div>
           </div>
 `
+document.body.innerHTML += `<div id="Blursor"></div>
+<style>
+    #Blursor {
+        height: 10rem; width: 10rem; border-radius: 1000px; background: #15b600; filter: blur(25px);
+    }
+    #Blursor {
+background: linear-gradient(45deg, var(--colour-1), var(--colour-2));
+position: absolute;
+transform: translate(-10%, -10%);
+box-shadow: 0 0 20px rgba(16, 0, 54, 0.2);
+pointer-events: none; z-index: -1;
+transition: 0.5s ease-out;
+}
+</style>
+`
+let myDiv = document.getElementById("Blursor");function isTouchDevice() {try {document.createEvent("TouchEvent");return true;} catch (e) {return false;};};const move = (e) => {try {var x = !isTouchDevice() ? e.pageX : e.touches[0].pageX;var y = !isTouchDevice() ? e.pageY : e.touches[0].pageY;} catch (e) {};myDiv.style.left = x - 50 + "px";myDiv.style.top = y - 50 + "px";};document.addEventListener("mousemove", (e) => {move(e);});document.addEventListener("touchmove", (e) => {move(e);});
